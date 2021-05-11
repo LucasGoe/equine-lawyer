@@ -1,0 +1,67 @@
+{
+  "nl": {
+    "aboutUs": {
+      "title": "Over ons",
+        "introText":"Hier komt de Over ons pagina tekst..."
+      },
+    "profile": {
+      "title": "Uw profiel",
+      "introText": "Hier komt de profielpagina tekst..."
+    },
+    "contact": {
+      "title": "Contact",
+      "introText": "Contactgegevens, maps.google, etc ....."
+    },
+    "login": {
+      "title": "Login",
+      "introText": "Hier komt de login pagina tekst...."
+    },
+    "home": {
+      "title": "Uw specialist in hippische zaken",
+      "introText": "Paarden ....."
+    },
+      "header": {
+      "menuItems": {
+        "aboutUs": "Over ons",
+        "profile": "Profiel",
+        "contact": "Contact",
+        "login": "Login"
+      },
+      "changeTo": "Change language to",
+      "title": "Uw specialist in hippische zaken!"
+    }
+
+  },
+  "en": {
+    "aboutUs": {
+      "title": "About us",
+      "introText": "About us text comes here ...."
+    },
+    "profile": {
+      "title": "Your profile",
+      "introText": "Here comes profile page text ..."
+    },
+    "contact": {
+      "title": "Contact",
+      "introText": "Here comes contact page text ..."
+    },
+    "login": {
+      "title": "Login",
+      "introText": "Here comes login page text ..."
+    },
+    "home": {
+      "title": "Your specialist in in equine matters",
+      "introText": "Here comes home page text ..."
+    },
+    "header": {
+      "menuItems": {
+        "aboutUs": "About us",
+        "profile": "Profile",
+        "contact": "Contact",
+        "login": "Login"
+      },
+      "changeTo": "Wissel taal naar",
+      "title": "Your specialist in equine matters!"
+    }
+  }
+}
