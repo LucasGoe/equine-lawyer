@@ -14,11 +14,31 @@
     },
     "login": {
       "title": "Login",
-      "introText": "Hier komt de login pagina tekst...."
+      "introText": "Hier komt de login pagina tekst....",
+      "email": "E-mail adres:",
+      "password": "Wachtwoord:",
+      "registerText": "Heb je nog geen account? ",
+      "linkText": "Registreer",
+      "buttonText": "Inloggen",
+      "successText": "Authenticatie gelukt!",
+      "errorText": "Inloggen mislukt. Probeer het opnieuw."
+    },
+    "register": {
+      "title": "Registreren",
+      "introText": "Maak een nieuw account aan",
+      "email": "E-mail adres:",
+      "password": "Wachtwoord:",
+      "username": "Gebruikersnaam:",
+      "loginText": "Heb je al een account? Dan kun je gewoon  ",
+      "linkText": "inloggen",
+      "buttonText": "Maak account",
+      "successText": "Registratie gelukt!",
+      "successText2": "Registeren is gelukt! Je wordt nu doorgestuurd naar de inlog pagina.",
+      "errorText": "Er is een fout opgetreden. Probeer het opnieuw."
     },
     "home": {
-      "title": "Uw specialist in hippische zaken",
-      "introText": "Paarden ....."
+      "title": "Uw strateeg in juridische procedures!",
+      "introText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A autem cupiditate enim\n                    exercitationem fugiat hic ipsa ipsum iure odio omnis porro quaerat, quas reiciendis,\n                    repudiandae sed similique, vitae voluptatem voluptates"
     },
       "header": {
       "menuItems": {
@@ -28,7 +48,7 @@
         "login": "Login"
       },
       "changeTo": "Change language to",
-      "title": "Uw specialist in hippische zaken!"
+      "title": "Strateeg in juridische procedures"
     }
 
   },
@@ -47,7 +67,27 @@
     },
     "login": {
       "title": "Login",
-      "introText": "Here comes login page text ..."
+      "introText": "Here comes login page text ...",
+      "email": "E-mail address:",
+      "password": "Password:",
+      "registerText": "If you don't have an account yet, ",
+      "linkText": "register",
+      "registerText2": " first",
+      "buttonText": "Login",
+      "successText": "Authentication succeeded!",
+      "errorText": "Login failed. Please try again."
+    },
+    "register": {
+      "title": "Register",
+      "introText": "Create a new account",
+      "email": "E-mail address:",
+      "password": "Password:",
+      "username": "User name:",
+      "loginText": "If you already have an account, just ",
+      "linkText": "login",
+      "buttonText": "Create account",
+      "successText": "Registering succeeded! You are now being redirected to the login page.",
+      "errorText": "An error occurred. Please try again."
     },
     "home": {
       "title": "Your specialist in in equine matters",
@@ -61,7 +101,7 @@
         "login": "Login"
       },
       "changeTo": "Wissel taal naar",
-      "title": "Your specialist in equine matters!"
+      "title": "Strategist in legal procedures"
     }
   }
 }

@@ -11,6 +11,7 @@ import AboutUs from './pages/aboutUs/AboutUs';
 import Profile from './pages/profile/Profile';
 import Contact from './pages/contact/Contact';
 import Login from './pages/login/Login';
+import Register from "./pages/register/Register";
 import './App.css';
 
 function App() {
@@ -34,6 +35,9 @@ function App() {
                         </Route>
                         <Route path="/login">
                             <Login/>
+                        </Route>
+                        <Route path="/register">
+                            <Register/>
                         </Route>
                     </Switch>
                 </div>

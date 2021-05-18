@@ -1,13 +1,23 @@
-import React, { useContext } from 'react';
+import React, {useContext} from 'react';
 import content from '../../data/content.json';
-import { LanguageContext } from "../../context/LanguageContextProvider";
+import {LanguageContext} from "../../context/LanguageContextProvider";
+import Tile from "../../components/tile/Tile";
+import YoungBoy from '../../assets/images/young-boy-chess-board.jpg';
 
 function Home() {
-    const { activeLanguage } = useContext(LanguageContext);
+    const {activeLanguage} = useContext(LanguageContext);
     return (
         <div className="page-container">
-            <h2>{content[activeLanguage].home.title}</h2>
-            <p>{content[activeLanguage].home.introText}</p>
+            <footer>
+                <Tile title={content[activeLanguage].home.title}>
+                    <p>{content[activeLanguage].home.introText}</p>
+                </Tile>
+                <Tile
+                    image={YoungBoy}
+                    alternative_text="brand-image"
+                >
+                </Tile>
+            </footer>
         </div>
     );
 }

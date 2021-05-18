@@ -15,11 +15,11 @@ function Header() {
             <header>
                 <nav>
                     <ul>
-                        <li>
-                            <NavLink exact to="/home">
-                                {content[activeLanguage].header.menuItems.home}
-                            </NavLink>
-                        </li>
+                        {/*<li>*/}
+                        {/*    <NavLink exact to="/home">*/}
+                        {/*        {content[activeLanguage].header.menuItems.home}*/}
+                        {/*    </NavLink>*/}
+                        {/*</li>*/}
                         <li>
                             <NavLink exact to="/about-us">
                                 {content[activeLanguage].header.menuItems.aboutUs}
@@ -38,8 +38,8 @@ function Header() {
                         <li className="language-switch">
                             <p>{content[activeLanguage].header.changeTo}</p>
                             {activeLanguage === 'nl' ?
-                                <FlagNL onClick={toggleLanguage}/> :
-                                <FlagEN onClick={toggleLanguage}/>}
+                                <FlagEN onClick={toggleLanguage}/> :
+                                <FlagNL onClick={toggleLanguage}/>}
                         </li>
                     </ul>
                 </nav>

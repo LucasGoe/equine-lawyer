@@ -1,3 +1,23 @@
+
+
+
+*{
+  margin: 5px;
+  /*border: 1px solid red;*/
+  /*color: gray(10);*/
+  color: #1D3B71;
+}
+
+header {
+  border-bottom: 2px solid #1D3B71;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+body {
+
+}
+
 .App {
   text-align: center;
 }
